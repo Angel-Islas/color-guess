@@ -5,6 +5,19 @@ body {
 
 .container {
     margin-top: 50px;
+    border: 10px solid black;
+    background: #DffffD;
+    width: 500px;
+    margin-left: 18cm;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 15px;
 }
 
 #colorDisplay {
@@ -15,16 +28,21 @@ body {
 }
 
 #colorPicker {
-    margin-bottom: 10px;
+    margin: 20px auto;
+    width: 150px;
+    height: 100px;
+    
 }
 
 #result {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 button {
     padding: 10px 20px;
     margin-top: 10px;
+    margin-bottom: 20px;
     background-color: dodgerblue;
     color: white;
     border: none;
