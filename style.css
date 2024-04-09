@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#colorDisplay {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+#colorPicker {
+    margin-bottom: 10px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: skyblue;
+}
