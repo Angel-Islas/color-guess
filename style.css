@@ -7,8 +7,10 @@ body {
     margin-top: 50px;
     border: 10px solid black;
     background: #DffffD;
-    width: 500px;
-    margin-left: 18cm;
+    width: 90%; 
+    max-width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
 }
 
@@ -21,7 +23,7 @@ h2{
 }
 
 #colorDisplay {
-    width: 200px;
+    width: 200px; 
     height: 200px;
     margin: 20px auto;
     border: 2px solid black;
@@ -29,9 +31,9 @@ h2{
 
 #colorPicker {
     margin: 20px auto;
-    width: 150px;
+    width: 80%; 
+    max-width: 150px; 
     height: 100px;
-    
 }
 
 #result {
@@ -51,4 +53,20 @@ button {
 
 button:hover {
     background-color: skyblue;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px; 
+    }
+    h2 {
+        font-size: 12px; 
+    }
+    #colorDisplay {
+        height: 150px; 
+    }
+    button {
+        padding: 8px 16px; 
+    }
 }
